@@ -28,3 +28,7 @@ Si el usuario decide salir ingresando el número 7, se le muestra un mensaje de 
 ![Cierre de sesión, mostrando ejemplo](https://github.com/escordigan/ConversorDeMonedas/assets/149540525/55df8048-4b66-41f6-b61d-b6df7da3ef48)
 
 
+<h3 align="left"> Autoría </h3>
+
+Este proyecto fue creado únicamente por mi persona, como parte de una serie de trabajos finales, requeridos para comprobar los conocimientos adquiridos durante el programa de Oracle One.
+
