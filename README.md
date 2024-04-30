@@ -25,5 +25,6 @@ En caso de que el usuario ingrese un número que no está dentro del menú, se l
 
 Si el usuario decide salir ingresando el número 7, se le muestra un mensaje de salida para asegurarse de que su sesión ha finalizado.
 
-![Mostrando ejemplo de sesion finalizada](https://github.com/escordigan/ConversorDeMonedas/assets/149540525/b0bcdbd1-24b1-40f7-a472-264d66a3139d)
+![Cierre de sesión, mostrando ejemplo](https://github.com/escordigan/ConversorDeMonedas/assets/149540525/55df8048-4b66-41f6-b61d-b6df7da3ef48)
+
 
