@@ -25,6 +25,7 @@ public class Principal {
 
             //Creacion de while que engloba las decisiones de switch.Al terminar la operacion elegida del menu, aparece nuevamente el menu principal, hasta elegir la opcion de salida.
 
+
             while (dato !=7){
             System.out.println("\n");
             System.out.println("¡Gracias por utilizar los servicios de nuestro conversor de monedas internacionales!");
@@ -83,14 +84,21 @@ public class Principal {
 
                             break;
 
+                        case 7:
+
+                            //Mensaje de salida, una vez terminado el while para cuando sea elegida la opcion 7 - Salir
+
+                            System.out.println("Saliendo del sistema... Gracias por preferirnos");
+
+                            break;
+
                         default:
 
                         System.out.println("Opción inválida, por favor ingrese una opción correcta");
+
+                        break;
                     }
             }
 
-            //Mensaje de salida, una vez terminado el while para cuando sea elegida la opcion 7 - Salir
-
-            System.out.println("Saliendo del sistema... Gracias por preferirnos");
         }
 }
