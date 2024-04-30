@@ -15,3 +15,4 @@ El menú cuenta siempre con la opcion de salir, ingresando el número 7 y este m
 Primeramente el usuario elige el tipo de moneda que desea convertir y luego ingresa el monto.
 A lo interno, se utiliza el API de un convertidor de monedas llamado "Exchangerate-Api", este es su sitio fuente o de origen (https://www.exchangerate-api.com/). De este sitio se consultan los datos en tiempo real del cambio de moneda, se consume el API y se hace un "parsing" únicamente de los datos necesarios del archivo JSON generado. 
 De esta manera se muestra en pantalla la conversion de la moneda y la tasa de cambio utilizada.
+![Mostrando ejemplo de conversion y resultado](https://github.com/escordigan/ConversorDeMonedas/assets/149540525/bca9676e-b741-4ac4-a6cf-04fd52b1914a)
