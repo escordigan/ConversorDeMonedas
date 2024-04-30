@@ -5,3 +5,8 @@
 
 
 <h2 align="left"> Descripcion del proyecto </h2>
+
+Conversor de monedas hecho en Java.
+En el menú principal el usuario puede elegir convertir dólares americanos a colones y viceversa, dólares americanos a dólares canadienses y viceversa, y por último, dólares americanos a yenes y viceversa.
+
+![Menu pricncipal](https://github.com/escordigan/ConversorDeMonedas/assets/149540525/148309ed-6c37-4baf-bf3f-9d1332f618a6)
