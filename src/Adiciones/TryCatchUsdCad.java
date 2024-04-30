@@ -18,6 +18,7 @@ public class TryCatchUsdCad {
             System.out.println("Por favor ingrese el valor de dólares americanos que desea convertir a dólares canadienses. \n" +
                     "No se requiere utilizar comas, usar el punto únicamente para decimales en caso sea necesario: ");
 
+            //Aqui se espera el ingreso del usuario, el monto o valor, ademas la variable se guarda para su posterior uso en el link del API
             Scanner valorUsuario = new Scanner(System.in);
             var conversionTres = valorUsuario.nextLine();
 
@@ -83,6 +84,7 @@ public class TryCatchUsdCad {
             System.out.println("Por favor ingrese el valor de dólares canadienses que desea convertir a dólares americanos. \n" +
                     "No se requiere utilizar comas, usar el punto únicamente para decimales en caso sea necesario: ");
 
+            //Aqui se espera el ingreso del usuario, el monto o valor, ademas la variable se guarda para su posterior uso en el link del API
             Scanner valorUsuario = new Scanner(System.in);
             var conversionCuatro = valorUsuario.nextLine();
 

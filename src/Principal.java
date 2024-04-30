@@ -4,6 +4,7 @@ import Adiciones.TryCatchYenesDolares;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 
+import javax.swing.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -16,13 +17,13 @@ public class Principal {
 
         public static void main(String[] args) throws IOException{
 
-            //Creacion de objeto Scanner llamado ingresoUsuario espera type del usuario
+            //Creacion de objeto Scanner llamado ingresoUsuario espera la opcion seleccionada por el usuario
             Scanner ingresoUsuario = new Scanner(System.in);
 
-            //Variable inicializada en 0, para poder ejecutar
+            //Variable inicializada en 0, para poder ejecutarla
             int dato = 0;
 
-            //Creacion de while que engloba las decisiones de switch, siempre al terminar la operacion elegida del menu, aparece nuevamente el menu principal, hasta elegir la opcion de salida.
+            //Creacion de while que engloba las decisiones de switch.Al terminar la operacion elegida del menu, aparece nuevamente el menu principal, hasta elegir la opcion de salida.
 
             while (dato !=7){
             System.out.println("\n");
@@ -39,10 +40,11 @@ public class Principal {
             System.out.println(" Ingrese una opcion válida: ");
 
 
-            dato = ingresoUsuario.nextInt(); // Declaracion de la variable dato, se obtiene del ingresoUsuario y se lee con nextInt.
+            dato = ingresoUsuario.nextInt(); // Variable dato, se obtiene del ingresoUsuario y se lee con nextInt. Si se lee el dato del usuario fuera de while, el programa no da inicio.
+                                            // Pues en ese punto del proceso es que se requiere conocer el numero ingresado para poder continuar el loop
+
 
                     //Inicio de las opciones de switch, declaracion de opciones.
-
                     switch(dato){
 
                         case 1:
@@ -80,6 +82,10 @@ public class Principal {
                             TryCatchYenesDolares.TryCaseSix();
 
                             break;
+
+                        default:
+
+                        System.out.println("Opción inválida, por favor ingrese una opción correcta");
                     }
             }
 

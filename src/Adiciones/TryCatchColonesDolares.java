@@ -84,6 +84,7 @@ public class TryCatchColonesDolares {
       System.out.println("Por favor ingrese el valor de colones que desea convertir a dólares americanos. \n" +
               "No se requiere utilizar comas, usar el punto únicamente para decimales en caso sea necesario: ");
 
+      //Aqui se espera el ingreso del usuario, el monto o valor, ademas la variable se guarda para su posterior uso en el link del API
       Scanner valorUsuario = new Scanner(System.in);
       var conversionDos = valorUsuario.nextLine();
 

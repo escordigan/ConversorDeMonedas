@@ -19,6 +19,7 @@ public class TryCatchYenesDolares {
             System.out.println("Por favor ingrese el valor de dólares americanos que desea convertir a yenes japoneses. \n" +
                     "No se requiere utilizar comas, usar el punto únicamente para decimales en caso sea necesario: ");
 
+            //Aqui se espera el ingreso del usuario, el monto o valor, ademas la variable se guarda para su posterior uso en el link del API
             Scanner valorUsuario = new Scanner(System.in);
             var conversionCinco = valorUsuario.nextLine();
 
@@ -85,6 +86,7 @@ public class TryCatchYenesDolares {
             System.out.println("Por favor ingrese el valor de yenes japoneses  que desea convertir a dólares americanos. \n" +
                     "No se requiere utilizar comas, usar el punto únicamente para decimales en caso sea necesario: ");
 
+            //Aqui se espera el ingreso del usuario, el monto o valor, ademas la variable se guarda para su posterior uso en el link del API
             Scanner valorUsuario = new Scanner(System.in);
             var conversionSeis = valorUsuario.nextLine();
 
